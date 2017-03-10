@@ -1,6 +1,6 @@
 FROM alpine:3.5
 
-LABEL MAINTAINER tsgkdt <tsgkadot@gmail.com>
+LABEL MAINTAINER tsgkdt <tsgkadot@gmail.com> \
       DESC Doxygen and SVN, Git
 
 RUN apk --update add doxygen graphviz subversion git && \
