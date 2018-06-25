@@ -2,8 +2,8 @@
 
 | software | location | version |
 |----------|----------|---------|
-| Doxygen  | /usr/bin/doxygen | 1.8.13   |
-| GraphViz | /usr/bin/dot     | 2.38.0   |
+| Doxygen  | /usr/bin/doxygen | 1.8.14   |
+| GraphViz | /usr/bin/dot     | 2.40.1   |
 
 
 # How to Use
