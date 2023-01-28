@@ -14,7 +14,7 @@
 Configuration file is under $(pwd). Filename is "Doxygen"  
 
 ```sh
-docker run --rm -v $(pwd)/Doxygen:/tmp/Doxygen tsgkadot/docker-doxygen doxygen /tmp/Doxygen
+docker run --rm -v $(pwd)/Doxygen:/tmp/Doxygen tlangohr/doxygen doxygen /tmp/Doxygen
 ```
 
 
@@ -28,7 +28,7 @@ And doxygen(build) and publish(gitlab pages).
 `.gitlab-ci.yml` sample is below.
 
 ```yml
-image: tsgkadot/docker-doxygen
+image: tlangohr/doxygen
 pages:
   stage: deploy
   script:
